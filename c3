@@ -1,83 +1,141 @@
-这是关于 **Chapter 3: Interface Design (界面设计)** 的完整总结，结合了您上传的 Part 1（理论与原则）和 Part 2（交互风格与设备）的内容：
+根据您的要求，我为您整理了这两份课件的详细章节摘要，采用**中英文逐条对照**的格式：
 
 ---
 
-### **C3 Part 1: Guidelines and Principles (界面设计指南与原则)**
+### **第一部分：界面设计原则与指南 (C3_InterfaceDesign_Part1)**
 
-#### **1. Interaction Models: Donald Norman’s Model (交互模型：唐纳德·诺曼模型)**
+#### **1. Interaction Model (交互模型)**
 
-* **Definition (定义):** 帮助理解用户与系统之间的沟通，识别“执行隔阂”和“评估隔阂”。
-* **Seven Stages of Action (操作的七个阶段):**
-1. **Goal (目标):** 确立想要达到的目的（如：邀请朋友吃午饭）。
-2. **Intention (意图):** 决定采取的方式（如：发短信还是打电话）。
-3. **Action Specification (动作规格):** 在界面上确定具体操作（如：点击解锁 -> 打开信息应用）。
-4. **Execution (执行):** 实际操作（如：按下按键）。
-5. **Perception (感知):** 看到系统的反应。
-6. **Interpretation (解释):** 理解系统发生了什么变化。
-7. **Evaluation (评估):** 将结果与原始目标进行对比。
+* **Definition (定义):** * **EN:** Models help us understand the communication between the user and the system and identify the problem space.
+* **CN:** 模型帮助我们理解用户与系统之间的沟通，并识别问题所在。
 
 
-
-#### **2. Design Principles (设计原则)**
-
-* **Visibility (显而易见性):** 相关部件必须清晰可见，让用户知道如何操作（如：清晰的按钮）。
-* **Affordance (示能性/可操作暗示):** 物品的外观应暗示其功能（如：按钮看起来就是可以“按”的，输入框看起来就是可以“填”的）。
-* **Mapping (映射):** 控制键与其效果之间的关系（如：炉灶开关的排列应与火口位置一致）。
-* **Constraints (约束):** 限制用户的操作范围，防止错误发生（如：灰色不可点击的按钮）。
-
-#### **3. Human Errors (人为错误)**
-
-* **Slip (失误):** 目标正确但执行错误（如：手滑点错了按钮）。
-* *Solution:* 增加元素间距、提供撤销功能。
+* **Donald Norman's Model (唐纳德·诺曼模型):**
+* **EN:** The interactive cycle is divided into two major phases: Execution (doing) and Evaluation (checking results).
+* **CN:** 交互周期分为两个主要阶段：执行（操作）和评估（检查结果）。
 
 
-* **Mistake (错误):** 目标或决策本身就是错的（如：用 Excel 去修图）。
-* *Solution:* 改善用户对系统的理解和培训。
+* **Seven Stages of Action (行动的七个阶段):**
+* **EN:** 1. Goal, 2. Intention, 3. Action sequence, 4. Execution, 5. Perception, 6. Interpretation, 7. Evaluation.
+* **CN:** 1. 目标，2. 意图，3. 动作序列，4. 执行，5. 感知，6. 解释，7. 评估。
 
 
-* **Error Message Design (错误消息设计):** 应当明确（Explicit）、易读（Human-Readable，不使用计算机代码）、并提供解决建议（Constructive）。
+
+#### **2. The Two Gulfs (两大鸿沟)**
+
+* **Gulf of Execution (执行鸿沟):**
+* **EN:** The difference between the user's formulation of the actions and the actions allowed by the system.
+* **CN:** 用户构思的动作与系统允许的动作之间的差异。
+
+
+* **Gulf of Evaluation (评估鸿沟):**
+* **EN:** The gap between the system's representation and the user's expectation/understanding of the state.
+* **CN:** 系统状态的呈现与用户对该状态的期望或理解之间的差距。
+
+
+
+#### **3. Norman’s Design Principles (诺曼的设计原则)**
+
+* **Visibility (可视性):**
+* **EN:** Relevant parts must be visible and convey the correct message.
+* **CN:** 相关部件必须可见，并传达正确的讯息。
+
+
+* **Feedback (反馈):**
+* **EN:** Sending back information about what action has been done and what has been accomplished.
+* **CN:** 向用户反馈已执行的操作及所达成的结果。
+
+
+* **Constraints (约束):**
+* **EN:** Limiting the interaction to prevent the user from making invalid selections.
+* **CN:** 限制交互以防止用户进行无效的选择。
+
+
+* **Mapping (映射):**
+* **EN:** The relationship between controls and their effects in the world.
+* **CN:** 控制键与其在现实世界中产生的效果之间的关系。
+
+
+* **Consistency (一致性):**
+* **EN:** Using similar operations and elements for similar tasks.
+* **CN:** 对类似的任务使用相似的操作和元素。
+
+
+* **Affordance (示能性):**
+* **EN:** Attributes of an object that allow people to know how to use it (e.g., a button invites pushing).
+* **CN:** 物体的属性允许人们知道如何使用它（例如，按钮暗示着可以按下）。
+
+
+
+#### **4. Shneiderman’s 8 Golden Rules (施耐德曼的八大黄金法则)**
+
+* **EN:** Include consistency, shortcuts for experts, informative feedback, closure in dialogues, error prevention/handling, easy reversal of actions, internal locus of control, and reducing short-term memory load.
+* **CN:** 包括一致性、为专家提供快捷方式、提供信息反馈、设计闭环对话、预防及处理错误、易于撤销操作、支持内部控制感、以及减少短期记忆负荷。
+
+#### **5. Errors (错误分类)**
+
+* **Slip (差错):**
+* **EN:** Correct intention but incorrect execution (e.g., clicking the wrong button).
+* **CN:** 意图正确但执行错误（例如点错了按钮）。
+
+
+* **Mistake (错误):**
+* **EN:** Incorrect action based on an incorrect decision or goal.
+* **CN:** 基于错误的决策或目标采取了错误的行动。
+
+
 
 ---
 
-### **C3 Part 2: Interaction Styles & Devices (交互风格与设备)**
+### **第二部分：计算机与交互风格 (C3_InterfaceDesign_InteractionStyle_Part2)**
 
 #### **1. Input Devices (输入设备)**
 
-* **Keyboards (键盘):** 最常用的文本输入设备。**QWERTY** 是标准布局（虽然不是最高效的，但历史悠久）。
-* **Pointing Devices (指向设备):** * **Mouse (鼠标):** 间接操纵设备。
-* **Touch Screen (触摸屏):** 直接操纵，直观但容易产生“遮挡”问题或指纹污垢。
-* **Others (其他):** 摇杆、触控板、光笔、手写板。
+* **Keyboard Layouts (键盘布局):**
+* **QWERTY:** * **EN:** The standard layout, but not optimal for speed as it was designed for old typewriters.
+* **CN:** 标准布局，但对于速度来说并非最优，因为它是为旧式打字机设计的。
+
+
+* **DVORAK:** * **EN:** Designed to put common letters under the strongest fingers to increase speed.
+* **CN:** 旨在将常用字母放在最强有力的手指下以提高速度。
 
 
 
-#### **2. Common Interaction Styles (常见的交互风格)**
 
-* **Command Line Interface, CLI (命令行界面):**
-* *Pros:* 强大、灵活、适合专家。
-* *Cons:* 学习成本高，依赖记忆。
-
-
-* **Menus (菜单):**
-* *Pros:* 减少记忆负担（辨别优于回忆），适合新手。
-* *Cons:* 占用屏幕空间，如果菜单太深会显得繁琐。
+* **Pointing Devices (指针设备):**
+* **Mouse (鼠标):** * **EN:** Easy to use but requires desk space and hand movement away from keyboard.
+* **CN:** 易于使用，但需要桌面空间，且手需离开键盘。
 
 
-* **Natural Language (自然语言):** 使用语音或打字与电脑交谈（如：Siri, Alexa）。容易出错且存在语义模糊。
-* **Question/Answer Interface (问答界面):** 引导式对话，常用于安装程序或调查问卷。
-* **Form-fills (表单填写):** 用于大量数据录入（如：注册账号页面）。
-* **WIMP (Window, Icon, Menu, Pointer):** 现代图形界面的基础，包括窗口、图标、菜单和指针。
-
-#### **3. Direct Manipulation (直接操纵)**
-
-* **Characteristics (特征):** 1. 持续展示感兴趣的对象。
-2. 使用物理动作或点击，而非复杂语法。
-3. 操作结果即时可见。
-4. 动作可逆（Undo）。
-* **Pros & Cons (优缺点):** * *优点:* 学习快、减少焦虑、用户有掌控感。
-* *缺点:* 占用大量屏幕资源、不适合执行重复性的宏命令。
+* **Touchscreen (触摸屏):** * **EN:** Fast and direct, but can cause fatigue ("Gorilla Arm") and screen smudging.
+* **CN:** 快速且直接，但会导致疲劳（“大猩猩臂”）和屏幕污迹。
 
 
 
-#### **4. Designing for Public Spaces (公共空间设计)**
 
-* **Kiosks/ATM:** 设计应极其简单，不要求用户具备专业知识，通常使用大按钮或触摸屏，减少文本输入。
+
+#### **2. Interaction Styles (交互风格)**
+
+* **Command Line Interface (命令行界面):**
+* **EN:** Powerful and flexible for expert users but has a steep learning curve.
+* **CN:** 对专家用户来说强大且灵活，但学习曲线陡峭。
+
+
+* **Menu Selection (菜单选择):**
+* **EN:** Users select from a list; reduces memory load but can be slow for complex tasks.
+* **CN:** 用户从列表中选择；减少了记忆负荷，但对于复杂任务可能较慢。
+
+
+* **Form Fill-in (填表式):**
+* **EN:** Used for data entry; requires clear headings and logical grouping.
+* **CN:** 用于数据输入；需要清晰的标题和逻辑分组。
+
+
+* **Direct Manipulation (直接操纵 - WIMP):**
+* **EN:** Uses Windows, Icons, Menus, and Pointers. Provides immediate visual feedback.
+* **CN:** 使用窗口、图标、菜单和指针。提供即时的视觉反馈。
+
+
+* **Natural Language (自然语言):**
+* **EN:** Communicating with the system like a human conversation; easy for users but hard for computers to understand ambiguity.
+* **CN:** 像人类对话一样与系统交流；对用户来说很简单，但计算机很难理解歧义。
