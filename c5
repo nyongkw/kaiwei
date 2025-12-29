@@ -1,0 +1,89 @@
+这是关于 **Chapter 5: Evaluation (评估)** 的完整总结，结合了您上传的 Part 1（基础）、Part 2（专家分析）和 Part 3（可用性测量）的内容：
+
+---
+
+### **C5 Part 1: Evaluation Overview (评估概述)**
+
+#### **1. Goals and Importance (目标与重要性)**
+
+* **EN:** Evaluation assesses the usability of a system to ensure it matches user requirements, identifies specific problems, and assesses the user's satisfaction and emotional response.
+* **CN:** 评估旨在衡量系统的可用性，以确保其符合用户需求，识别具体问题，并衡量用户的满意度和情感反应。
+
+#### **2. Types of Evaluation (评估类型)**
+
+* **Formative Evaluation (形成性评估):**
+* **EN:** Conducted during the design process to provide feedback for improvement.
+* **CN:** 在设计过程中进行，用于提供改进建议的反馈。
+
+
+* **Summative Evaluation (总结性评估):**
+* **EN:** Conducted at the end to verify if the final product meets the required standards.
+* **CN:** 在项目结束时进行，用于验证最终产品是否达到要求标准。
+
+
+
+#### **3. Evaluation Methods (评估方法)**
+
+* **Laboratory Studies (实验室研究):** Controlled environment, specialized equipment, but lacks natural context. (受控环境，专业设备，但缺乏自然语境)。
+* **Field Studies (现场研究):** Observed in the user's actual environment; high realism but harder to control. (在用户实际环境中观察；真实性高但难以控制)。
+* **A/B Testing (A/B 测试):**
+* **EN:** Comparing two versions (A and B) of a web page to see which performs better (e.g., higher click rate).
+* **CN:** 比较网页的两个版本（A 和 B），看哪一个表现更好（如点击率更高）。
+
+
+
+---
+
+### **C5 Part 2: Expert Analysis (专家分析)**
+
+#### **1. Why Expert Analysis? (为何选择专家分析？)**
+
+* **EN:** Fast, inexpensive, and does not require a lab or actual users. It identifies usability issues by upholding accepted design principles.
+* **CN:** 快速、廉价，不需要实验室或真实用户。它通过遵循公认的设计原则来识别可用性问题。
+
+#### **2. Cognitive Walkthrough (认知走查法)**
+
+* **EN:** Evaluators work through tasks from the user's perspective, focusing on how easy the system is to learn (**Learnability**).
+* **CN:** 评估者从用户的角度模拟操作任务，重点关注系统的易学性（**Learnability**）。
+
+#### **3. Heuristic Evaluation (启发式评估 - Nielsen's 10 Heuristics)**
+
+* **EN:** Experts guide the evaluation based on 10 usability rules. Key rules include:
+1. **Visibility of system status:** Always keep users informed (e.g., progress bars).
+2. **Match between system and real world:** Use familiar language and concepts.
+3. **User control and freedom:** Provide "Emergency Exits" (Undo/Redo).
+4. **Consistency and standards:** Follow platform conventions.
+5. **Error prevention:** Design to prevent problems from occurring.
+6. **Recognition rather than recall:** Make objects and options visible.
+
+
+* **CN:** 专家根据10条可用性法则进行评估。关键法则包括：
+1. **系统状态可见性：** 始终让用户知情（如：进度条）。
+2. **系统与现实世界匹配：** 使用熟悉的语言和概念。
+3. **用户控制权与自由度：** 提供“紧急出口”（撤销/重做）。
+4. **一致性与标准：** 遵循平台惯例。
+5. **防错：** 设计应防止问题发生。
+6. **辨别优于回忆：** 使对象和选项可见。
+
+
+
+---
+
+### **C5 Part 3: Usability Measurement (可用性测量)**
+
+#### **1. ISO Definition of Usability (ISO 可用性定义)**
+
+* **Effectiveness (有效性):** Accuracy and completeness (Can users finish the task?). (准确度和完成度)。
+* **Efficiency (效率):** Resources/Time expended (How fast can they do it?). (消耗的资源/时间)。
+* **Satisfaction (满意度):** Comfort and acceptability. (舒适度和接受度)。
+
+#### **2. Metrics and Tools (测量指标与工具)**
+
+* **Metrics:** Task completion time, error counts, and success rates. (任务完成时间、错误计数和成功率)。
+* **Net Promoter Score (NPS):** Measures if customers would recommend the product. (衡量客户是否会推荐该产品)。
+* **SUMI Questionnaire:** A standardized 50-item questionnaire measuring Affect, Efficiency, Helpfulness, Control, and Learnability. (一个标准的50项问卷，测量情感、效率、帮助性、控制感和易学性)。
+
+#### **3. Number of Users (需要多少用户？)**
+
+* **Qualitative (定性测试):** 5 users are usually enough to find 80% of usability problems. (5名用户通常足以发现80%的可用性问题)。
+* **Quantitative (定量测试):** 20 users or more are recommended to get statistically significant results (time, error counts). (建议20名或更多用户，以获得具有统计意义的结果)。
