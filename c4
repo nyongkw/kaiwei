@@ -1,0 +1,90 @@
+这是关于 **Chapter 4: Prototyping (原型制作)** 的完整总结，结合了您上传的文档内容，涵盖了原型类型、设计流程以及工作环境因素：
+
+---
+
+### **C4: Prototyping & Iterative Design (原型制作与迭代设计)**
+
+#### **1. Prototyping Basics (原型基础)**
+
+* **Definition (定义):**
+* **EN:** A prototype is a primitive version of a system used to test concepts and gather feedback. It helps overcome the problem of incomplete requirements.
+* **CN:** 原型是系统的原始版本，用于测试概念并收集反馈。它有助于解决需求不完整的问题。
+
+
+* **Iterative Design (迭代设计):**
+* **EN:** A continuous cycle of: Study users -> Design prototype -> Usability test -> Analysis.
+* **CN:** 一个持续的循环：研究用户 -> 设计原型 -> 可用性测试 -> 分析。
+
+
+
+#### **2. Types of Prototypes (原型的类型)**
+
+* **Throw-away Prototype (抛弃式原型):**
+* **EN:** Built to gain knowledge and feedback, then discarded. The final product is built from scratch using the lessons learned.
+* **CN:** 为了获取知识和反馈而构建，随后将其丢弃。最终产品是利用所学到的经验从零开始构建的。
+
+
+* **Incremental Prototype (增量式原型):**
+* **EN:** The system is built as separate, independent components one at a time and released in a series.
+* **CN:** 系统被拆分为独立的组件，逐一构建并分批次发布。
+
+
+* **Evolutionary Prototype (演进式原型):**
+* **EN:** The prototype is not discarded but continuously refined and updated until it becomes the final system.
+* **CN:** 原型不会被丢弃，而是不断改进和更新，直到它演变成最终系统。
+
+
+
+#### **3. Fidelity of Prototypes (原型的保真度)**
+
+* **Low-fidelity, Lo-Fi (低保真):**
+* **EN:** Uses paper, sketches, or storyboards. Fast and cheap to produce; good for early-stage brainstorming.
+* **CN:** 使用纸张、草图或分镜。制作快速且廉价；适用于早期阶段的头脑风暴。
+
+
+* **High-fidelity, Hi-Fi (高保真):**
+* **EN:** Looks and behaves like the final product (e.g., Figma, Adobe XD). Used for detailed usability testing.
+* **CN:** 外观和行为都像最终产品（如 Figma）。用于详细的可用性测试。
+
+
+
+#### **4. Techniques (制作技术)**
+
+* **Storyboarding (分镜脚本):**
+* **EN:** A series of graphical depictions showing how a user interacts with the system step-by-step.
+* **CN:** 一系列图形描绘，展示用户如何逐步与系统交互。
+
+
+* **Sketching & Paper Prototyping (草图与纸上原型):**
+* **EN:** Quick hand-drawn interfaces used to communicate design ideas without worrying about details.
+* **CN:** 快速手绘的界面，用于交流设计思想而无需担心细节。
+
+
+
+#### **5. Workplace & Environmental Factors (工作场所与环境因素)**
+
+* **Workplace Design (工作场所设计):**
+* **EN:** Includes **Ergonomics** (comfortable furniture), **Space Layout** (open for collaboration, private for focus), and **Technological Integration**.
+* **CN:** 包括**人机工程学**（舒适的家具）、**空间布局**（开放式促进协作，私密式促进专注）和**技术集成**。
+
+
+* **Environmental Factors (环境因素):**
+* **EN:**
+1. **Lighting (照明):** Reduces eye strain.
+2. **Noise (噪音):** Minimizes distractions.
+3. **Temperature/Air Quality (温度与空气质量):** Improves performance.
+
+
+* **CN:**
+1. **照明：** 减轻眼睛疲劳。
+2. **噪音：** 减少分心。
+3. **温度与空气质量：** 提高工作表现。
+
+
+
+
+
+#### **6. Importance (重要性)**
+
+* **EN:** Improves productivity, reduces physical strain (health issues), and enhances creativity and collaboration (e.g., Google's office design).
+* **CN:** 提高生产力，减少身体疲劳（健康问题），并增强创造力与协作（例如 Google 的办公室设计）。
