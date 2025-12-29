@@ -1,145 +1,75 @@
-根据您提供的两份文档（Part 1 和 Part 2），以下是关于 **社会技术系统 (Socia-Technical System)** 的章节内容总结，涵盖了人机交互设计中的关键要素：
+没问题！我已经根据你的反馈，去掉了所有乱码数字（如 1111、2222 等），并优化了 GitHub 的 Markdown 排版。
+
+你可以直接全选复制下方内容，贴到 GitHub 时会非常整齐，不会出现多余的空行：
 
 ---
 
-### **C2 Part 1: Interface Design & User Analysis (界面设计与用户分析)**
+# Chapter 2: Socia-Technical System (社会技术系统) 总结
 
-#### **1. Human Factors in Interface Design (界面设计中的人体因素)**
+## C2 Part 1: Interface Design & User Analysis (界面设计与用户分析)
 
-* 
-**Definition (定义):** 研究人如何与系统交互，旨在提高性能、安全性和满意度 。
+### 1. Human Factors in Interface Design (界面设计中的人体因素)
 
-* 
-**Key Goals (核心目标):** * **Cognitive Load Reduction (减轻认知负荷):** 减少不必要的复杂性（如 Google 的极简搜索页）。
-
-* 
-**Error Prevention (防错):** 引导用户避免常见错误（如 Gmail 的“撤回发送”）。
-
-* 
-**Physical & Ergonomic (生理与人机工程):** 减少压力和不适感（如人体工学键盘）。
-
-* 
-**Accessibility (无障碍):** 照顾残障用户（如沉浸式阅读器）。
-
-* 
-**Consistency & Feedback (一致性与反馈):** 保持统一的设计（如 Office 图标）并提供即时反馈（如进度条）。
+* **Definition (定义):**
+* **EN:** The study of how humans interact with systems to improve performance, safety, and satisfaction.
+* **CN:** 研究人如何与系统交互，旨在提高性能、安全性和满意度。
 
 
-#### **2. User Involvement (用户参与)**
-* 
-**Strategies (策略):** 包括**参与式设计**（用户参与工作坊）、**用户中心设计 (UCD)**（全程关注用户需求）和**反馈闭环**（如 Google Docs 的协作反馈）。
-
-* 
-**Designer Collaboration (与设计师合作):** 通过敏捷开发、迭代测试、原型制作（Figma）和跨学科团队（心理学家与工程师合作）来提升系统易用性 。
-
-
-#### **3. User Analysis & Types (用户分析与类型)**
-
-* 
-**3 Key Questions (三个关键问题):** 用户是谁？任务是什么？操作环境如何？。
+* **Key Design Goals (核心设计目标):**
+* **Cognitive Load Reduction (减轻认知负荷):** Minimize complexity (e.g., Google's minimalist search). / 减少复杂性，如 Google 的极简搜索页。
+* **Error Prevention (防错):** Guide users to prevent mistakes (e.g., Gmail's "Undo Send"). / 引导用户避免错误，如 Gmail 的“撤回发送”功能。
+* **Physical & Ergonomic (生理与人机工程):** Reduce physical strain (e.g., ergonomic keyboards). / 减少身体劳损，如人体工学键盘。
+* **Accessibility (无障碍):** Accommodate users with disabilities. / 照顾残障人士。
+* **Consistency & Feedback (一致性与反馈):** Maintain uniform design and provide immediate responses (e.g., progress bars). / 保持设计统一并提供即时响应（如进度条）。
 
 
+
+### 2. User Involvement (用户参与策略)
+
+* **Participatory Design (参与式设计):** Active user engagement in workshops and testing. / 让用户主动参与工作坊和测试。
+* **User-Centered Design, UCD (用户中心设计):** Focus on user needs at every stage, from research to testing. / 从研发到测试的每个阶段都关注用户需求。
+* **Feedback Loops (反馈闭环):** Using real-time feedback to improve interfaces (e.g., Spotify updates). / 利用实时反馈改进界面。
+
+### 3. User Analysis & Types (用户分析与类型)
+
+* **3 Key Questions (三个关键问题):** Who are the users? What are the tasks? What is the environment? / 用户是谁？任务是什么？环境如何？
 * **User Types (用户类型):**
-1. 
-**Novice Users (新手):** 不熟悉系统。设计应简短、清晰，由电脑引导操作 。
-
-
-2. 
-**Knowledgeable Intermittent Users (熟练但非频繁用户):** 有任务知识但会忘记细节。需要良好的帮助文档 。
-
-
-3. 
-**Expert/Frequent Users (专家/频繁用户):** 熟悉系统。需要快捷键和简短的反馈 。
-
-
-
-
-
-#### **4. Gathering Requirements (收集需求)**
-
-* 
-**Types (类型):** **功能性需求**（系统做什么）和**非功能性需求**（系统如何运作，如响应时间）。
-
-
-* 
-**Methods (方法):** 访谈、焦点小组、卡片分类（了解心理模型）、问卷调查和观察（直接或间接）。
-
-
-* 
-**Personas (用户画像):** 基于现实观察合成的虚构人物模型，用于代表用户关系和目标 。
+1. **Novice Users (新手):** Unfamiliar with the system; need computer-led guidance and prompts. / 不熟悉系统，需要由电脑引导和提示。
+2. **Knowledgeable Intermittent Users (熟练但不频繁用户):** Have task knowledge but forget system details (e.g., yearly tax filing). / 了解任务但会忘记操作细节（如年度报税）。
+3. **Expert/Frequent Users (专家/频繁用户):** Familiar with systems; need shortcuts and rapid interaction. / 熟悉系统，需要快捷键和快速交互。
 
 
 
 ---
 
-### **C2 Part 2: User's Capabilities & Cognition (用户能力与认知)**
+## C2 Part 2: User's Capabilities & Cognition (用户能力与认知)
 
-#### **1. Physical Capabilities (生理能力)**
+### 1. Physical Capabilities (生理能力)
 
-* 
-**Visual (视觉):** * **Peripheral Vision (外围视觉):** 对动态敏感，但对颜色和细节不敏感。侧边栏更新应使用动画而非仅仅变色 。
-
-
-* 
-**Colour Blindness (色盲):** 约 8% 男性受影响，设计师需考虑红绿色盲 。
+* **Vision (视觉):**
+* **Peripheral Vision (外围视觉):** Sensitive to motion but insensitive to color and detail. / 对动态敏感，但对颜色和细节不敏感。
+* **Color Blindness (色盲):** Affects 8% of males; designers must ensure accessibility beyond color alone. / 影响约 8% 的男性；设计不能仅依赖颜色传达信息。
+* **Visual Perception (视觉感知):** Context shapes how we interpret ambiguous figures (e.g., "13" vs "B"). / 语境决定了我们如何解读模糊图形。
 
 
-* 
-**Visual Perception (视觉感知):** 背景决定感知（如将图形看作 "13" 或 "B"）。
+* **Movement & Fitts' Law (运动与费茨法则):** The time to hit a target depends on the distance to and the size of the target. / 移动到目标的时间取决于距离长短和目标大小。
 
+### 2. Reading Process & Word Shape (阅读过程与字形)
 
+* **Reading (阅读):** Humans recognize words based on their overall shape, not letter by letter. / 人类是基于单词整体形状而非逐个字母进行阅读的。
+* **Capitalization (大写字母的影响):** All-caps text (SHAPE) destroys distinct word shapes, making it slower and harder to read. / 全大写文本破坏了单词形状，导致阅读变慢且更困难。
 
+### 3. Cognitive Capabilities (认知能力)
 
-* 
-**Hearing (听觉):** 频率范围为 20Hz-15kHz。声音用于定位、反馈（简短警告）或吸引注意力 。
-
-
-* 
-**Movement (运动):** **费茨法则 (Fitts' Law)** 预测移动到目标的时间取决于距离和目标宽度。目标越大、距离越近，效率越高 。
-
-
-
-#### **2. Human Reading (人类阅读过程)**
-
-* 
-**Process (过程):** 识别视觉模式 -> 解码语言 -> 结合语境解释 。
-
-
-* 
-**Word Shape (字形):** 人类通过单词轮廓而非逐个字母阅读。**全大写字母**会破坏轮廓，导致阅读速度下降，因此 UI 设计应避免长篇大写 。
+* **Attention (注意力):** Use color, spacing, or negative space to focus user attention. / 利用颜色、间距或留白来引导用户注意力。
+* **Memory (记忆):**
+* **Short-term (短期):** Limited capacity (7±2 chunks) and fast access. / 容量有限（7±2 个块），存取速度快。
+* **Long-term (长期):** Huge capacity but slower access. / 容量巨大但存取较慢。
+* **Design Tip (设计建议):** Recognition (seeing it) is easier than Recall (remembering it). / “辨别”（看到它）比“回忆”（想起它）更容易。
 
 
 
-#### **3. Cognitive Capabilities (认知能力)**
+### 4. Mental Models & Metaphors (心理模型与隐喻)
 
-* 
-**Attention (注意力):** 信息应结构化以捕捉焦点（如使用颜色、间距或负空间）。
-
-
-* 
-**Perception (感知):** **格式塔心理学 (Gestalt Laws)** 说明人类倾向于将事物视为整体。原则包括**接近性**（靠得近视为一组）、**连续性**、**相似性**和**主体-背景** 。
-
-
-* 
-**Memory (记忆):** * **Short-term (短期):** 容量有限 (7±2 个块)，存取快但易消失 。
-
-
-* 
-**Long-term (长期):** 容量无限但检索较慢 。
-
-
-* 
-**Design Tip:** 促进**辨别 (Recognition)** 优于**回忆 (Recall)** 。
-
-
-
-
-
-#### **4. Mental Models & Metaphors (心理模型与隐喻)**
-
-* 
-**Mental Model (心理模型):** 用户对系统运作方式的认知。设计师应使系统符合用户的心理预期 。
-
-
-* 
-**Metaphors (隐喻):** 使用熟悉的概念（如“文件夹”、“回收站”）来描述计算机操作，降低学习成本 。
+* **Mental Model (心理模型):** The user's internal understanding of how a system works. / 用户对系统运作方式的内在理解。
+* **Metaphor (隐喻):** Using familiar concepts (e.g., "Folders", "Recycle Bin") to explain unfamiliar computer systems. / 使用熟悉的概念（如“文件夹”、“回收站”）来解释陌生的电脑系统。
